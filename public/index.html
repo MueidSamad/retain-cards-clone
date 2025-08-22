@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Retain Cards Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Exam Preparation in Record Time</h1>
+    <p>Our AI transforms your study material into exam questions with solutions.</p>
+    <a href="#upload" class="cta-button">Get Started</a>
+  </header>
+  <section class="advantages">
+    <h2>Our Advantages</h2>
+    <div class="adv-cards">
+      <div class="adv-card">
+        <h3>20% more efficient than Anki</h3>
+        <p>Save 20% of your study time by switching from static learning planners to our state‑of‑the‑art adaptive spaced repetition algorithm.</p>
+      </div>
+      <div class="adv-card">
+        <h3>Personalized learning plan</h3>
+        <p>Follow the tailored learning plan we provide, modeled through predictive algorithms and insights from millions of learning records.</p>
+      </div>
+      <div class="adv-card">
+        <h3>AI-generated flashcards</h3>
+        <p>Upload your PDF to create flashcards within seconds. We process everything—from standard text and math formulas to images and handwritten notes.</p>
+      </div>
+    </div>
+  </section>
+  <section id="upload" class="upload">
+    <h2>Upload Your Study Material</h2>
+    <form id="uploadForm">
+      <input type="file" name="file" accept=".pdf,.png,.jpg,.jpeg" required>
+      <button type="submit">Upload & Generate Flashcards</button>
+    </form>
+    <div id="flashcards"></div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Retain Cards Clone</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
