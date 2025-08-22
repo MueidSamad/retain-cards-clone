@@ -74,3 +74,30 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+/* How It Works Section */
+.how-it-works {
+  padding: 40px 20px;
+  background: #ffffff;
+}
+.how-it-works h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.step {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 280px;
+  border-radius: 4px;
+}
+.step h3 {
+  margin-top: 0;
+}
+
