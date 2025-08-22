@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.hero {
+  background: #0d47a1;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  margin: 0 0 10px;
+  font-size: 2.5em;
+}
+
+.hero p {
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ffa000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.advantages {
+  padding: 40px 20px;
+  background: #f5f5f5;
+}
+
+.advantages h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.adv-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.adv-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 280px;
+  border-radius: 4px;
+}
+
+.upload {
+  padding: 40px 20px;
+}
+
+#flashcards {
+  margin-top: 20px;
+}
+
+.flashcard {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 10px;
+}
